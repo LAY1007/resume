@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>个人简历</title>
+    <!--css-->
+
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet/less" type="text/css" href="css/index.less"/>
+    <script type="text/javascript" src="js/less-2.5.3.min.js"></script>
+
+    <!--计算rem-->
+    <script>
+        document.documentElement.style.fontSize=document.documentElement.clientWidth/640*100+"px";
+    </script>
+</head>
+<body>
+<!--loading-->
+<section class="loading" id="loading">
+    <div class="title">
+        <h1>个人简历</h1>
+    </div>
+    <div class="loadingIcon">
+        <div class="IconBox"></div>
+    </div>
+</section>
+<section class="focus" id="focus">
+   <div class="focusBox">
+       <ul class="list">
+           <li>
+               <div class="imgBox">
+                   <img src="img/page1.1.png"/>
+               </div>
+               <div class="text">
+                   个人介绍
+               </div>
+
+           </li>
+           <li>
+               <div  class="imgBox">
+                   <img src="img/page1.1.png"/>
+               </div>
+               <div class="text">
+                   专业技能
+               </div>
+
+           </li>
+           <li>
+               <div  class="imgBox">
+                   <img src="img/page1.1.png"/>
+               </div>
+               <div class="text">
+                   工作经验
+               </div>
+
+           </li>
+           <li>
+               <div  class="imgBox">
+                   <img src="img/page1.1.png"/>
+               </div>
+               <div class="text">
+                   自我评价
+               </div>
+
+           </li>
+           <li>
+               <div  class="imgBox">
+                   <img src="img/page1.1.png"/>
+               </div>
+              <div class="text">
+                   联系方式
+               </div>
+
+           </li>
+       </ul>
+   </div>
+</section>
+<!--content-->
+<section class="swiper" id="swiper">
+  <div class="back"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!--基本信息-->
+            <div class="swiper-slide page1">
+                <div class="drop">
+                    <img src="img/page2.1.jpg" alt=""/>
+                </div>
+             <div class="des">
+                 <h3>基本信息</h3>
+             </div>
+                <div class="infoList">
+                    <ul>
+                        <li>
+                            <span>姓名：  </span>
+                            <span>马英</span></li>
+                        <li>
+                            <span> 职   位:</span>
+                            <span>前端开发</span></li>
+                        <li>
+                            <span>地   址：</span>
+                            <span>北京</span>
+                        </li>
+                        <li>
+                            <span>学历：</span>
+                            <span>本科</span>
+                        </li>
+                        <li>
+                            <span>工作经验：</span>
+                            <span>1年</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper-slide page2">
+                <h2>专业技能</h2>
+
+                <div class="box">
+                    <img src="img/page3.1.png" alt=""/>
+                    <img src="img/page3.2.png" alt=""/>
+                    <img src="img/page3.3.png" alt=""/>
+                    <img src="img/page3.4.png" alt=""/>
+                    <img src="img/page3.5.png" alt=""/>
+                    <img src="img/page3.6.png" alt=""/>
+                    <img src="img/page3.7.png" alt=""/>
+                </div>
+            </div>
+            <div class="swiper-slide page3">
+              <h2>工作经验</h2>
+               <div class="list">
+
+               </div>
+            </div>
+            <div class="swiper-slide page4">
+                <h2>自我评价</h2>
+                <div class="list">
+                    <div class="num1">1</div>
+                    <p class="p1">
+                        抗压
+                        <br/>
+                        性格乐观，抗压力强
+                    </p>
+                    <div class="num2">2</div>
+                    <p class="p2">
+                        学习
+                        <br/>
+                        较强的学习能力
+                    </p>
+
+                    <div class="num3">3</div>
+                    <p class="p3">
+                        沟通
+                        <br/>
+                        良好的沟通能力
+                    </p>
+                    <div class="num4">4</div>
+                    <p class="p4">
+                        认真
+                        <br/>
+                        责任意识强
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide page5">
+            <!--联系方式-->
+                <h2>联系方式</h2>
+                <div class="weChat">
+                    <img src="img/weChat.png" alt=""/>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>TEL：15210696535</li>
+                        <li>QQ:    2391556802</li>
+                        <li>E-Mail:even931@163.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+</body>
+</html>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
